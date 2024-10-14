@@ -9,9 +9,9 @@ const spy= (num) =>{
 function returnsANamedFunction(){
     return spy
 }
+
 function returnsAnAnonymousFunction(){
     return function(){
         return "bite"
-    }
-
-console.log(receivesAFunction(spy))
+   }
+}
